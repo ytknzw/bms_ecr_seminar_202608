@@ -1,0 +1,20 @@
+# 【問題】03_test_check_score.py — pytest（Stretch）
+# check_score.py の check_score を検証する（同じディレクトリで実行）。
+
+import pytest
+from check_score import check_score
+
+
+# 問題1: 境界値で優・良を検証する（80→優、90→優、79.9→良、70→良）。
+def test_yuu_ryou():
+    ...
+
+
+# 問題2: 境界値で可・不可を検証する（69.9→可、50→可、49.9→不可）。
+def test_ka_fuka():
+    ...
+
+
+# 問題3: 範囲外（-1, 101）でValueErrorになることを検証する。
+def test_invalid():
+    ...
