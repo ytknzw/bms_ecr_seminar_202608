@@ -13,6 +13,7 @@ i = 1
 while i <= 10:
     total += i
     i += 1
+
 total
 
 # 問題3: 引数xsの平均を返す関数avg(xs)を定義する（sum(xs) / len(xs)）。
